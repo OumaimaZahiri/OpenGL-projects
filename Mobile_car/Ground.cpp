@@ -31,7 +31,7 @@ void Ground::Display(uint64_t m_TimeElapsed)
     sky = sky.convertToFormat(QImage::Format_RGBA8888);
 
     QImage barrel = QImage(":/barrel.jpg");
-    sky = sky.convertToFormat(QImage::Format_RGBA8888);
+    barrel = barrel.convertToFormat(QImage::Format_RGBA8888);
 
 
     GLuint* textures=new GLuint[4];

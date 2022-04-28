@@ -27,7 +27,7 @@ HEADERS += myglwidget.h \
     Car.h \
     Ground.h
 RESOURCES += \
-    textures.qrc
+    textures\textures.qrc
 
 DISTFILES += \
     grass.jpg \
